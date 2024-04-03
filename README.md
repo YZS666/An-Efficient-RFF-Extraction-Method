@@ -24,8 +24,11 @@ This is a PyTorch/GPU implementation of the paper [An Efficient RFF Extraction M
 
 ### Catalog
 
-- [x] Training and Visualization code
+- [x] Training code
+- [x] Few-shot training code
+- [x] AWGN training code
+- [x] Visualization  code
 
-### Training
-* Start training by running the train_FS-AMAE.py file.
+### Training and Visualization
+* Start training by running the train_FS-AMAE.py or train_FS-AMAE.py file.
 * After the training is completed, the Visualization.py file can be run to visualize the features of the trained model, and the trained model can be evaluated using unsupervised clustering indicators.
